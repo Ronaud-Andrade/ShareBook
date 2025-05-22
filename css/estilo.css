@@ -1,0 +1,31 @@
+header div{
+   background-color: #A0522D;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+#divcontent{
+   display: flex;
+   flex-direction: row;
+}
+
+#sidebox {
+   background-color: #A0522D;
+   height: 100vh; /* ocupa a altura toda da tela */
+   width: 200px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: baseline;
+}
+
+#conteudo {
+   width: 5px;
+   background-color: black;
+   height: 100vh;
+}
+
+
