@@ -64,7 +64,11 @@
     justify-content: space-evenly;
 }
 
-
+.outro{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
 
 .container .square{
     height: 300px;
