@@ -15,4 +15,15 @@ body{
 fieldset{
     background-color: white;
     color: black;
+    width: 700px;
+    height: 300px;
+    border: 2px solid #000; /* Cor da borda */
+    border-radius: 20px;     /* Arredondamento */
+    padding: 10px 20px; /* Cor de fundo parecida com a da imagem */
+    gap: 20px;
+}
+
+fieldset div img{
+    padding: 5px;
+    
 }
