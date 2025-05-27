@@ -16,6 +16,8 @@ body{
 }
 
 .Header {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 50px;
     background-color: #A0522D;
@@ -36,6 +38,8 @@ body{
 }
 
 .Sidebar {
+    position: fixed;
+    top: 50px;
     width: 7%;
     height: 100vh;
     display: flex;
@@ -51,12 +55,13 @@ body{
 
 
 .Content{
+    margin-top: 60px;   /* 🔥 Espaço do header */
+    margin-left: 140px;
     padding-top: 15px;
     flex-grow: 1;
     height: 100vh;    
     display: flex;
     flex-direction: column;
-
 }
 
 
