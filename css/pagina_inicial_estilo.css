@@ -4,7 +4,18 @@
 
 body{
     background-color: #FCF1E2;
+    overflow-x: hidden;
 }
+
+.carrossel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
 
 .container {
     display: flex;
@@ -25,6 +36,26 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+/* Scrollbar */
+.carrossel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carrossel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.carrossel::-webkit-scrollbar-thumb {
+    background: #A0522D;
+    border-radius: 10px;
+}
+
+.carrossel::-webkit-scrollbar-thumb:hover {
+    background: #7a3d22;
 }
 
 .Header h1{
@@ -55,15 +86,12 @@ body{
 
 
 .Content{
-    margin-top: 60px;   /* 🔥 Espaço do header */
-    margin-left: 140px;
-    padding-top: 15px;
+    margin-top: 60px; /* Espaço do header */
+    margin-left: 120px; /* Espaço da sidebar */
+    padding: 20px;
     flex-grow: 1;
-    height: 100vh;    
-    display: flex;
-    flex-direction: column;
+    min-width: 0; /* 🔥 Impede estouro horizontal */
 }
-
 
 .items-section{
     padding-top: 15px;
@@ -84,6 +112,7 @@ body{
     color:aliceblue;
     flex-direction: column;
     justify-content: flex-start;
+    flex: 0 0 auto; /* ⚠️ MUITO IMPORTANTE pro scroll funcionar */
 
 }
 
