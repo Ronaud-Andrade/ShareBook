@@ -27,3 +27,9 @@ fieldset div img{
     padding: 5px;
     
 }
+
+.disable{
+    pointer-events: none; /* 🔥 Desativa clique */
+    opacity: 0.5;         /* 🔥 Deixa mais clarinho */
+    cursor: not-allowed;  /* 🔥 Muda o cursor */
+}
