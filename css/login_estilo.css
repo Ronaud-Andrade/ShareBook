@@ -33,3 +33,16 @@ fieldset div img{
     opacity: 0.5;         /* 🔥 Deixa mais clarinho */
     cursor: not-allowed;  /* 🔥 Muda o cursor */
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 220px;
+    padding: 8px 12px;
+    border: 2px solid #a0522d;
+    border-radius: 10px;
+    background-color: #fffaf4;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
