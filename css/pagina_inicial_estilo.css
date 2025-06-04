@@ -202,3 +202,89 @@ body{
 .square3 .avaliacao img {
     width: 25px;
 }
+
+/* 🔥 Telas até 600px (celulares) */
+@media (max-width: 600px) {
+    .Header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Header div {
+        justify-content: center;
+    }
+
+    .Header h1 {
+        font-size: 18px;
+    }
+
+    .Sidebar {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        height: 60px;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .Sidebar img {
+        padding: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .Content {
+        margin-left: 0;
+        margin-bottom: 70px; /* espaço pro novo menu */
+        margin-top: 60px;
+    }
+
+    .items-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .square, .square2 {
+        width: 90%;
+        height: auto;
+    }
+
+    .square3 {
+        width: 90%;
+    }
+}
+
+/* 🔥 Telas entre 601px e 1024px (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .Sidebar {
+        width: 15%;
+    }
+
+    .Content {
+        margin-left: 16%;
+    }
+
+    .items-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .square {
+        width: 40%;
+    }
+
+    .square2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .square3 {
+        width: 80%;
+    }
+
+}

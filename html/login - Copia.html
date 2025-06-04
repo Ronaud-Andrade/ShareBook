@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharebook</title>
+    <link href="/css/login_estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div style="display: flex; flex-direction: row; align-items: center;">
+        <img src="/fotos/header/Group 2.png">
+        <h1>Sharebook</h1>
+    </div>
+
+    <fieldset>
+        <form>
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-around;" >
+                <div style="display: flex; flex-direction: column; padding-top: 60px; align-items: center;">
+                    
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text">
+                    </div>
+        
+                    <br><br>
+
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <label for="mail">Email:</label>
+                        <input id="mail" type="email">
+                    </div>
+
+                    <br><br>
+        
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <label for="senha">Senha:</label>
+                        <input id="senha" type="password">    
+                    </div>
+
+                    <br>
+
+                    <button id="botao" type="reset">Apagar</button>
+                </div>
+                <div style="display: flex; flex-direction: column; padding-top: 50px; align-items: center;">
+
+                    <a class="disable" id="login_google" href="pagina_inicial.html">
+                        <img src="/fotos/Login/Frame 38.png">
+                    </a>
+
+                    <a class="disable" id="login_facebook" href="pagina_inicial.html">
+                        <img src="/fotos/Login/Frame 39.png">
+                    </a>
+
+                    <a class="disable" id="login" href="pagina_inicial.html">
+                        <img src="/fotos/Login/Frame 40.png">
+                    </a>
+
+                    <p style="text-decoration: underline;">Não possui uma conta?</p>
+                    
+                </div>
+
+
+            </div>
+
+            <br><br>
+        </form>
+    </fieldset>
+    <script src="/scripts/login_script.js"></script>
+
+    
+</body>
+</html>
