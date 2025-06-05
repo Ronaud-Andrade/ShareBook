@@ -9,8 +9,23 @@ Tecnologias utilizadas:
         > JavaScript
         > Figma
         > Vercel (hospedagem online)
+        > Wave (Web Accessibility Evaluation Tools)
 
 Créditos:
     💻 Desenvolvedor: Ronaud Andrade
     📚 Inspiração: Comunidade de leitores e apaixonados por livros
     🎨 Design: Ronaud Andrade
+
+💻 Instruções de Execução:
+
+    1. Clone o repositório
+
+        git clone https://github.com/Ronaud-Andrade/ShareBook.git
+
+    2. Acesse a pasta do projeto
+
+        cd ShareBook
+
+    3. Acesse no navegador
+
+        Abra o index.html no localhost: http://localhost:5000
