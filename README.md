@@ -7,3 +7,10 @@ Tecnologias utilizadas:
         > HTML 5
         > CSS 3
         > JavaScript
+        > Figma
+        > Vercel (hospedagem online)
+
+Créditos:
+    💻 Desenvolvedor: Ronaud Andrade
+    📚 Inspiração: Comunidade de leitores e apaixonados por livros
+    🎨 Design: Ronaud Andrade
