@@ -1,31 +1,44 @@
-Descrição do Projeto:
-    Esse site foi desenvolvido por Ronaud Andrade, aluno do Curso de Análise e Desenvolvimento de Sistema, para um trabalho da disciplina de Autoria Web.
+# Projeto de Interface Web – HTML, CSS e JavaScript
 
-Tecnologias utilizadas:
-    Desenvolvi esse projeto com:
-        > Flexboxlabs
-        > HTML 5
-        > CSS 3
-        > JavaScript
-        > Figma
-        > Vercel (hospedagem online)
-        > Wave (Web Accessibility Evaluation Tools)
+**Aluno(a):** Ronaud Andrade Lacerda Clementino  
+**Turma:** 2º Período / A  
+**Data de entrega:** 06/06/2025
 
-Créditos:
-    💻 Desenvolvedor: Ronaud Andrade
-    📚 Inspiração: Comunidade de leitores e apaixonados por livros
-    🎨 Design: Ronaud Andrade
+## Nome do site
+**ShareBook**
 
-💻 Instruções de Execução:
+## Descrição do projeto
+Este site foi desenvolvido como parte do 3º Estágio da disciplina de Autoria Web.  
+O objetivo é transformar um protótipo em um website funcional, responsivo e acessível, utilizando HTML semântico, CSS externo e interatividade básica com JavaScript.
 
-    1. Clone o repositório
+O **ShareBook** é uma plataforma fictícia voltada para entusiastas da leitura que desejam compartilhar e descobrir livros. O site permite ao usuário visualizar listas de livros recomendados, acessar informações sobre gêneros e autores, além de interagir com elementos como um menu dinâmico e um formulário de contato para sugestões ou dúvidas. O foco está na usabilidade, acessibilidade e boa experiência em diferentes dispositivos.
 
-        git clone https://github.com/Ronaud-Andrade/ShareBook.git
+## Estrutura de pastas
 
-    2. Acesse a pasta do projeto
+/ShareBook/
+├── css/
+│ └── style.css
+├── fotos/
+│ └── (imagens utilizadas)
+├── html/
+│ ├── index.html
+│ ├── sobre.html
+│ └── contato.html
+├── scripts/
+│ └── script.js
+├── .gitattributes
+├── LICENSE
+├── README.md
+└── index.html
 
-        cd ShareBook
 
-    3. Acesse no navegador
+## Funcionalidades incluídas
 
-        Abra o index.html no localhost: http://localhost:5000
+- Layout **responsivo** com uso de `media queries`
+- Formulário com **validação simples via JavaScript**
+- Interação em JavaScript (ex: menu mobile, botão voltar ao topo)
+- Navegação entre páginas com uso de `<a>`
+- Estrutura visual organizada com **Flexbox**
+- Utilização de **HTML semântico**
+- Imagens com `alt` descritivo, priorizando a **acessibilidade**
+- Separação de responsabilidades: estrutura (HTML), estilo (CSS), comportamento (JS)
